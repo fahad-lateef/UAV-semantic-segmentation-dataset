@@ -21,15 +21,15 @@ Diffusion-Driven Semantic Segmentation Dataset for UAV Imagery (D²S²-UI) offer
 
 D²S²-UI includes extensive ***multi-altitude*** (20m, 60m, 120m) and ***multi-viewpoint*** (Nadir 90°, high-oblique 60°, low-oblique 45°) coverage, providing diverse aerial perspectives essential for segmentation tasks. 
 
-<img src="images/2.png" alt="Description" width="550" height="330">
+<img src="images/2.png" alt="Description" width="530" height="320">
 
 ***Seasonal Variations***
 
-<img src="images/6.png" alt="Description" width="700" height="450">
+<img src="images/6.png" alt="Description" width="650" height="430">
 
 ***Various times of day*** (dawn, noon, dusk, night)
 
-<img src="images/4.png" alt="Description" width="700" height="450">
+<img src="images/4.png" alt="Description" width="650" height="430">
 
 ***Weather Conditions*** (rain, snow, fog, clear skies)
 <img src="images/7.png" alt="Description" width="980" height="450">
@@ -71,7 +71,7 @@ Assessed the generalization capabilities of the D²S²-UI dataset using two prom
 
 Class-wise semantic segmentation results on real-world datasets. The segmentation models were trained on the D²S²-UI dataset and tested on unseen data.
 
-<img src="images/11.png" alt="Description" width="990" height="280">
+<img src="images/11.png" alt="Description" width="990" height="250">
 
 Semantic Segmentation Results on Unseen Datasets: Performance of the [SegFormer](https://github.com/NVlabs/SegFormer) Model Trained on D²S²-UI Dataset.
 
