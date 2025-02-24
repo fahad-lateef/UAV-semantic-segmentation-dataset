@@ -10,8 +10,9 @@ A Novel Dataset for Pixel-Level Semantic Segmentation for UAV Imagery.
 
 ## Dataset Description:
 
-Diffusion-Driven Semantic Segmentation Dataset for UAV Imagery (D²S²-UI) offers a comprehensive and diverse collection of UAV imagery. It consists of 7,000 high-resolution image-mask pairs, each with a 1024x1024 pixels resolution. These images encompass 8 distinct classes,
-Road (road, sidewalk), Nature (trees, grass, vegetation), Water (rivers, lakes, ponds), Vehicles, Person (pedestrians), Construction (buildings, bridges, roofs, streetlights), Obstacle (fence, pole), and Void (background).
+Diffusion-Driven Semantic Segmentation Dataset for UAV Imagery (D²S²-UI) offers a comprehensive and diverse collection of UAV imagery. It consists of ***7,000*** image-mask pairs, each with a 1024x1024 pixels resolution. These images encompass 8 distinct classes:
+***Road*** (road, sidewalk), ***Nature*** (trees, grass, vegetation), ***Water*** (rivers, lakes, ponds), ***Vehicles***, ***Person*** (pedestrians), ***Construction*** (buildings, bridges, roofs, streetlights), ***Obstacle*** (fence, pole), and ***Void*** (background).
+
 D²S²-UI includes extensive multi-altitude (20m, 60m, 120m) and multi-viewpoint (Nadir 90°, high-oblique 60°, low-oblique 45°) coverage, providing diverse aerial perspectives essential for segmentation tasks. It also features significant seasonal, environmental, and geographical diversity, capturing various times of day (dawn, noon, dusk, night), weather conditions (rain, snow, fog, clear skies), and regionally inspired landscapes (Egyptian, Asian, European, American, and Arabic terrains).
 
 To the best of our knowledge, no other aerial semantic segmentation dataset offers a comparable level of variation and richness. Furthermore, a significant advantage of our approach lies in its scalability, as it allows for the generation of an unlimited number of labeled images and scenes, enabling further exploration and dataset expansion as needed.
@@ -21,13 +22,18 @@ To the best of our knowledge, no other aerial semantic segmentation dataset offe
 A Two-Stream Conditional Generative Adversarial Network (TScGAN) for Improving Semantic Predictions in Urban Driving Scenes
 ![Overview of the proposed post-processing framework:](Images/1.png)
 
+**Camera angle variance**
+
+**Time & Light condition variance**
+
+
+
 ****
 
 
 ## Dataset Availability: 
-A subset of scene & lable images:
-- [Scene](https://drive.google.com/)
-- [Lables](https://drive.google.com/)
+
+You will be automatically granted access to the subset of D²S²-UI on [Hugging Face](https://huggingface.co/datasets/fahad-lateef/D2S2UI).
 
 The full dataset (approximately 20GB train+validation+test) will be uploaded soon.
 
