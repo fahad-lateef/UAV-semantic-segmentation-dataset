@@ -8,19 +8,36 @@ A Novel Dataset for Pixel-Level Semantic Segmentation for UAV Imagery.
 
 ****
 
-## Dataset Description:
+## D²S²-UI Dataset Description:
 
 Diffusion-Driven Semantic Segmentation Dataset for UAV Imagery (D²S²-UI) offers a comprehensive and diverse collection of UAV imagery. It consists of ***7,000*** image-mask pairs, each with a 1024x1024 pixels resolution. These images encompass 8 distinct classes:
 ***Road*** (road, sidewalk), ***Nature*** (trees, grass, vegetation), ***Water*** (rivers, lakes, ponds), ***Vehicles***, ***Person*** (pedestrians), ***Construction*** (buildings, bridges, roofs, streetlights), ***Obstacle*** (fence, pole), and ***Void*** (background).
 
-D²S²-UI includes extensive multi-altitude (20m, 60m, 120m) and multi-viewpoint (Nadir 90°, high-oblique 60°, low-oblique 45°) coverage, providing diverse aerial perspectives essential for segmentation tasks. It also features significant seasonal, environmental, and geographical diversity, capturing various times of day (dawn, noon, dusk, night), weather conditions (rain, snow, fog, clear skies), and regionally inspired landscapes (Egyptian, Asian, European, American, and Arabic terrains).
+![Classes:](images/3.png)
+
+**Aerial views of multiple environments**, including residential courtyards, urban highways, parks, and residential complexes, showcasing a variety of infrastructure and landscape types.
+
+![Multiple Environments:](images/1.png)
+
+D²S²-UI includes extensive ***multi-altitude*** (20m, 60m, 120m) and ***multi-viewpoint*** (Nadir 90°, high-oblique 60°, low-oblique 45°) coverage, providing diverse aerial perspectives essential for segmentation tasks. 
+
+![Multi-viewpoints:](images/2.png)
+
+***Seasonal Variations***
+
+![Multi-viewpoints:](images/2.png)
+
+***Various times of day*** (dawn, noon, dusk, night)
+![Multi-viewpoints:](images/2.png)
+
+***Weather Conditions*** (rain, snow, fog, clear skies)
+![Multi-viewpoints:](images/2.png)
+
+***Regionally inspired landscapes*** (Egyptian, Asian, European, American, and Arabic terrains).
+![Multi-viewpoints:](images/2.png)
 
 To the best of our knowledge, no other aerial semantic segmentation dataset offers a comparable level of variation and richness. Furthermore, a significant advantage of our approach lies in its scalability, as it allows for the generation of an unlimited number of labeled images and scenes, enabling further exploration and dataset expansion as needed.
 
-## D²S²-UI Dataset:
-
-A Two-Stream Conditional Generative Adversarial Network (TScGAN) for Improving Semantic Predictions in Urban Driving Scenes
-![Overview of the proposed post-processing framework:](Images/1.png)
 
 **Camera angle variance**
 
