@@ -66,12 +66,12 @@ Visual Comparison: D²S²-UI ***Vs*** Existing Synthetic Aerial Datasets.
 
 Assessed the generalization capabilities of the D²S²-UI dataset using two prominent semantic segmentation models: [DeepLabV3+](https://github.com/VainF/DeepLabV3Plus-Pytorch) and [SegFormer](https://github.com/NVlabs/SegFormer). Comparison of D²S²-UI generalization performance (mIoU scores) with other synthetic datasets, SynDrone and SkyScenes.
 
-<img src="images/10.png" alt="Description" width="750" height="250">
+<img src="images/10.png" alt="Description" width="730" height="220">
 
 
 Class-wise semantic segmentation results on real-world datasets. The segmentation models were trained on the D²S²-UI dataset and tested on unseen data.
 
-<img src="images/11.png" alt="Description" width="990" height="250">
+<img src="images/11.png" alt="Description" width="970" height="250">
 
 Semantic Segmentation Results on Unseen Datasets: Performance of the [SegFormer](https://github.com/NVlabs/SegFormer) Model Trained on D²S²-UI Dataset.
 
