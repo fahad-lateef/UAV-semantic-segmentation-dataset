@@ -87,6 +87,7 @@ Please feel free to start an issue if you have questions about D²S²-UI.
 
 ## Acknowledgements
 University Technology Belfort-Montbrliard, France [UTBM](https://www.utbm.fr/)
+
 Connaissance et Intelligence Artificielle Distribuées [CIAD](http://www.ciad-lab.fr/)
 
 ## Inspiration
