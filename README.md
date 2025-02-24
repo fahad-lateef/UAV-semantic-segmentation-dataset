@@ -17,10 +17,9 @@ D²S²-UI includes extensive multi-altitude (20m, 60m, 120m) and multi-viewpoint
 To the best of our knowledge, no other aerial semantic segmentation dataset offers a comparable level of variation and richness. Furthermore, a significant advantage of our approach lies in its scalability, as it allows for the generation of an unlimited number of labeled images and scenes, enabling further exploration and dataset expansion as needed.
 
 ## D²S²-UI Dataset:
-<div align="center">
-    <img src="https://github.com/fahad-lateef/UAV-semantic-segmentation-dataset/blob/master/Images/1.jpg" width="600"/><img 
-    src="https://github.com/fahad-lateef/UAV-semantic-segmentation-dataset/blob/master/Images/2.jpg" width="600"/>
-</div>
+
+A Two-Stream Conditional Generative Adversarial Network (TScGAN) for Improving Semantic Predictions in Urban Driving Scenes
+![Overview of the proposed post-processing framework:](Images/1.png)
 
 ****
 
@@ -42,3 +41,13 @@ The scale and diversity of D²S²-UI enhances the robustness and generalization 
 ****
 ## Citation:
 When using or referring to the dataset please consider citing the following paper:
+
+# Contributions
+If you find any issue downloading the dataset, you can report it in the issues section.
+
+# Acknowledgements
+University Technology Belfort-Montbrliard, France [UTBM](https://www.utbm.fr/)
+Connaissance et Intelligence Artificielle Distribuées [CIAD](http://www.ciad-lab.fr/)
+
+# Inspiration
+This work offers a scalable solution to the challenges of UAV-based semantic segmentation, reducing the need for manual annotations and enhancing dataset diversity and applicability. We hope that this will benefit the community and researchers working in the field.
