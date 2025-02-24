@@ -42,12 +42,31 @@ The scale and diversity of D²S²-UI enhances the robustness and generalization 
 ## Citation:
 When using or referring to the dataset please consider citing the following paper:
 
-# Contributions
-If you find any issue downloading the dataset, you can report it in the issues section.
+## Contributions
+Please feel free to start an issue if you have questions about D²S²-UI.
 
-# Acknowledgements
+## Acknowledgements
 University Technology Belfort-Montbrliard, France [UTBM](https://www.utbm.fr/)
 Connaissance et Intelligence Artificielle Distribuées [CIAD](http://www.ciad-lab.fr/)
 
-# Inspiration
+## Inspiration
 This work offers a scalable solution to the challenges of UAV-based semantic segmentation, reducing the need for manual annotations and enhancing dataset diversity and applicability. We hope that this will benefit the community and researchers working in the field.
+
+## Terms of use
+
+The D²S²-UI: Diffusion-Driven Synthetic Data for Unmanned Aerial Vehicle (UAV) Imagery dataset is provided freely for academic and non-commercial purposes, including research, teaching, and scientific publications. By accessing or using this dataset, you agree to the following terms:
+
+**No Warranty or Liability:**
+The dataset is provided "as is" without any express or implied warranties. While efforts have been made to ensure accuracy, [Our University] assumes no responsibility for errors, omissions, or any outcomes resulting from its use.
+
+**Attribution Requirement:**
+Any work, research paper, or publication that utilizes the D²S²-UI dataset must properly cite and reference it. For academic publications, please refer to our official paper.
+
+**Restrictions on Redistribution:**
+You may not redistribute, share, or republish this dataset or any modified versions in their raw form. However, you may share derivative works, such as trained models or additional annotations, provided they do not contain or enable reconstruction of the original dataset.
+
+**Non-Commercial Use Only:**
+The dataset and any derivative works must not be used for commercial purposes. This includes but is not limited to licensing, selling, or using the dataset for financial gain.
+
+**Retained Rights:**
+All rights not explicitly granted under these terms remain with [Our University]. Any unauthorized use beyond these terms requires prior written permission. By using the D²S²-UI dataset, you acknowledge and agree to these conditions. Failure to comply may result in restrictions on future access.
