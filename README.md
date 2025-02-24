@@ -25,25 +25,18 @@ D²S²-UI includes extensive ***multi-altitude*** (20m, 60m, 120m) and ***multi-
 
 ***Seasonal Variations***
 
-![Multi-viewpoints:](images/2.png)
+![Multi-viewpoints:](images/6.png)
 
 ***Various times of day*** (dawn, noon, dusk, night)
-![Multi-viewpoints:](images/2.png)
+![Multi-viewpoints:](images/4.png)
 
 ***Weather Conditions*** (rain, snow, fog, clear skies)
-![Multi-viewpoints:](images/2.png)
+![Multi-viewpoints:](images/7.png)
 
 ***Regionally inspired landscapes*** (Egyptian, Asian, European, American, and Arabic terrains).
-![Multi-viewpoints:](images/2.png)
+![Multi-viewpoints:](images/5.png)
 
 To the best of our knowledge, no other aerial semantic segmentation dataset offers a comparable level of variation and richness. Furthermore, a significant advantage of our approach lies in its scalability, as it allows for the generation of an unlimited number of labeled images and scenes, enabling further exploration and dataset expansion as needed.
-
-
-**Camera angle variance**
-
-**Time & Light condition variance**
-
-
 
 ****
 
@@ -61,6 +54,29 @@ The scale and diversity of D²S²-UI enhances the robustness and generalization 
 
 ## Results:
 
+**Realism** analysis of the D²S²-UI dataset against existing synthetic aerial datasets.
+
+| Datasets     | FID   ↓| BRISQUE ↓| NIQE ↓ | PIQE ↓ | MUSIQ ↑ | ILNIQE ↑ | UNIQUE ↑
+|--------------|--------|----------|------- |--------|---------|----------|-------
+| SynDrone     | 152.58 | 31.450   | 5.409  | 58.456 | 46.961  | 23.606   | 0.3864
+| MidAir       | 155.70 | 25.149   | 3.394  | 37.357 | 68.837  | 21.604   | 0.4209
+| SkyScene     | 139.94 | 17.128   | 3.453  | 34.955 | 58.732  | 22.781   | 0.5778
+| DDOS         | 142.51 | 18.991   | 3.293  | 33.261 | 54.102  | 22.302   | 0.6216
+| VALID        | 153.16 | 22.465   | 3.223  | 38.280 | 58.624  | 22.717   | 0.5987
+| **D²S²-UI**  | **112.52** | **12.688**   | **2.721**  | **31.504** | **72.019**  | **25.780**   | **0.7536**
+
+Visual Comparison: D²S²-UI ***Vs*** Existing Synthetic Aerial Datasets.
+![Multi-viewpoints:](images/8.png)
+
+Assessed the generalization capabilities of the D²S²-UI dataset using two prominent semantic segmentation models: [DeepLabV3+](https://github.com/VainF/DeepLabV3Plus-Pytorch) and [SegFormer](https://github.com/NVlabs/SegFormer).
+
+![Multi-viewpoints:](images/11.png)
+
+Semantic Segmentation Results on Unseen Datasets: Performance of the [SegFormer](https://github.com/NVlabs/SegFormer) Model Trained on D²S²-UI Dataset.
+![Multi-viewpoints:](images/9.png)
+
+Comparison of D²S²-UI generalization performance (mIoU scores) with other synthetic datasets, SynDrone and SkyScenes, when trained on deep learning models.
+![Multi-viewpoints:](images/10.png)
 ****
 ## Citation:
 When using or referring to the dataset please consider citing the following paper:
