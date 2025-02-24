@@ -58,7 +58,7 @@ The scale and diversity of D²S²-UI enhances the robustness and generalization 
 
 **Realism** analysis of the D²S²-UI dataset against existing synthetic aerial datasets.
 
-<img src="images/12.png" alt="Description" width="1200" height="650">
+<img src="images/12.png" alt="Description" width="800" height="140">
 
 Visual Comparison: D²S²-UI ***Vs*** Existing Synthetic Aerial Datasets.
 
