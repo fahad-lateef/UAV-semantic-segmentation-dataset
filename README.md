@@ -13,30 +13,32 @@ A Novel Dataset for Pixel-Level Semantic Segmentation for UAV Imagery.
 Diffusion-Driven Semantic Segmentation Dataset for UAV Imagery (D²S²-UI) offers a comprehensive and diverse collection of UAV imagery. It consists of ***7,000*** image-mask pairs, each with a 1024x1024 pixels resolution. These images encompass 8 distinct classes:
 ***Road*** (road, sidewalk), ***Nature*** (trees, grass, vegetation), ***Water*** (rivers, lakes, ponds), ***Vehicles***, ***Person*** (pedestrians), ***Construction*** (buildings, bridges, roofs, streetlights), ***Obstacle*** (fence, pole), and ***Void*** (background).
 
-![Classes:](images/3.png)
+<img src="images/3.png" alt="Description" width="950" height="350">
 
 **Aerial views of multiple environments**, including residential courtyards, urban highways, parks, and residential complexes, showcasing a variety of infrastructure and landscape types.
 
-![Multiple Environments:](images/1.png)
+<img src="images/1.png" alt="Description" width="1000" height="700">
 
 D²S²-UI includes extensive ***multi-altitude*** (20m, 60m, 120m) and ***multi-viewpoint*** (Nadir 90°, high-oblique 60°, low-oblique 45°) coverage, providing diverse aerial perspectives essential for segmentation tasks. 
 
-![Multi-viewpoints:](images/2.png)
+<img src="images/2.png" alt="Description" width="550" height="330">
 
 ***Seasonal Variations***
 
-![Multi-viewpoints:](images/6.png)
+<img src="images/6.png" alt="Description" width="700" height="450">
 
 ***Various times of day*** (dawn, noon, dusk, night)
-![Multi-viewpoints:](images/4.png)
+
+<img src="images/4.png" alt="Description" width="700" height="450">
 
 ***Weather Conditions*** (rain, snow, fog, clear skies)
-![Multi-viewpoints:](images/7.png)
+<img src="images/7.png" alt="Description" width="980" height="450">
 
 ***Regionally inspired landscapes*** (Egyptian, Asian, European, American, and Arabic terrains).
-![Multi-viewpoints:](images/5.png)
 
-To the best of our knowledge, no other aerial semantic segmentation dataset offers a comparable level of variation and richness. Furthermore, a significant advantage of our approach lies in its scalability, as it allows for the generation of an unlimited number of labeled images and scenes, enabling further exploration and dataset expansion as needed.
+<img src="images/5.png" alt="Description" width="1000" height="550">
+
+**NOTE:** To the best of our knowledge, no other aerial semantic segmentation dataset offers a comparable level of variation and richness. Furthermore, a significant advantage of our approach lies in its scalability, as it allows for the generation of an unlimited number of labeled images and scenes, enabling further exploration and dataset expansion as needed.
 
 ****
 
@@ -50,33 +52,32 @@ The full dataset (approximately 20GB train+validation+test) will be uploaded soo
 ****
 
 ## Tested Models availability:
-The scale and diversity of D²S²-UI enhances the robustness and generalization of segmentation models. Experimental evaluations demonstrate that models trained on D²S²-UI surpass existing synthetic UAV datasets in segmentation accuracy and realism, while also showing strong generalizability to real-world UAV imagery. The two best deep models tested for UAV semantic segmentation referenced in the original paper can be found in the [cloud repository](https://drive.google.com/) along with corresponding [CKPT files](https://drive.google.com/).
+The scale and diversity of D²S²-UI enhances the robustness and generalization of segmentation models. Experimental evaluations demonstrate that models trained on D²S²-UI surpass existing synthetic UAV datasets in segmentation accuracy and realism, while also showing strong generalizability to real-world UAV imagery.
 
 ## Results:
 
 **Realism** analysis of the D²S²-UI dataset against existing synthetic aerial datasets.
 
-| Datasets     | FID   ↓| BRISQUE ↓| NIQE ↓ | PIQE ↓ | MUSIQ ↑ | ILNIQE ↑ | UNIQUE ↑
-|--------------|--------|----------|------- |--------|---------|----------|-------
-| SynDrone     | 152.58 | 31.450   | 5.409  | 58.456 | 46.961  | 23.606   | 0.3864
-| MidAir       | 155.70 | 25.149   | 3.394  | 37.357 | 68.837  | 21.604   | 0.4209
-| SkyScene     | 139.94 | 17.128   | 3.453  | 34.955 | 58.732  | 22.781   | 0.5778
-| DDOS         | 142.51 | 18.991   | 3.293  | 33.261 | 54.102  | 22.302   | 0.6216
-| VALID        | 153.16 | 22.465   | 3.223  | 38.280 | 58.624  | 22.717   | 0.5987
-| **D²S²-UI**  | **112.52** | **12.688**   | **2.721**  | **31.504** | **72.019**  | **25.780**   | **0.7536**
+<img src="images/12.png" alt="Description" width="1200" height="650">
 
 Visual Comparison: D²S²-UI ***Vs*** Existing Synthetic Aerial Datasets.
-![Multi-viewpoints:](images/8.png)
 
-Assessed the generalization capabilities of the D²S²-UI dataset using two prominent semantic segmentation models: [DeepLabV3+](https://github.com/VainF/DeepLabV3Plus-Pytorch) and [SegFormer](https://github.com/NVlabs/SegFormer).
+<img src="images/9.png" alt="Description" width="1200" height="650">
 
-![Multi-viewpoints:](images/11.png)
+Assessed the generalization capabilities of the D²S²-UI dataset using two prominent semantic segmentation models: [DeepLabV3+](https://github.com/VainF/DeepLabV3Plus-Pytorch) and [SegFormer](https://github.com/NVlabs/SegFormer). Comparison of D²S²-UI generalization performance (mIoU scores) with other synthetic datasets, SynDrone and SkyScenes.
+
+<img src="images/10.png" alt="Description" width="750" height="250">
+
+
+Class-wise semantic segmentation results on real-world datasets. The segmentation models were trained on the D²S²-UI dataset and tested on unseen data.
+
+<img src="images/11.png" alt="Description" width="990" height="280">
 
 Semantic Segmentation Results on Unseen Datasets: Performance of the [SegFormer](https://github.com/NVlabs/SegFormer) Model Trained on D²S²-UI Dataset.
-![Multi-viewpoints:](images/9.png)
 
-Comparison of D²S²-UI generalization performance (mIoU scores) with other synthetic datasets, SynDrone and SkyScenes, when trained on deep learning models.
-![Multi-viewpoints:](images/10.png)
+<img src="images/8.png" alt="Description" width="1200" height="2100">
+
+
 ****
 ## Citation:
 When using or referring to the dataset please consider citing the following paper:
