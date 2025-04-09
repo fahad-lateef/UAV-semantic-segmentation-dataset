@@ -29,7 +29,7 @@ Weather Conditions (rain, snow, fog, clear skies)
 
 Regionally inspired landscapes (Egyptian, Asian, European, American, and Arabic terrains).
 
-<img src="images/5.png" alt="Description" width="1000" height="550">
+<img src="images/5.png" alt="Description" width="800" height="950">
 
 This large-scale, highly diverse dataset improves the robustness and generalization of segmentation models. Experiments show that models trained on D²S²-UI outperform those trained on existing synthetic UAV datasets and generalize better to real-world UAV imagery.
 
