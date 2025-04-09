@@ -63,11 +63,11 @@ We have assessed the generalization capabilities of the D²S²-UI dataset using 
 
 Semantic Segmentation Results on Unseen Datasets: Performance of the [SegFormer](https://github.com/NVlabs/SegFormer) Model Trained on D²S²-UI Dataset.
 
-<img src="images/8.png" alt="Description" width="1200" height="2100">
+<img src="images/8.png" alt="Description" width="1200" height="2000">
 
 Comparison of D²S²-UI generalization performance (mIoU scores) with other synthetic datasets, SynDrone and SkyScenes, when evaluated using DeepLabV3+ and SegFormer deep learning models.
 
-<img src="images/10.png" alt="Description" width="730" height="220">
+<img src="images/10.png" alt="Description" width="730" height="200">
 
 Visual comparison of SegFormer model performance (mIoU scores) on real-world UAV datasets (UAVid, ICG, UDD, VDD, and Aeroscapes) after being trained with SynDrone, SkyScene, and D²S²-UI.
 
