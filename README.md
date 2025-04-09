@@ -71,7 +71,7 @@ Comparison of D²S²-UI generalization performance (mIoU scores) with other synt
 
 Visual comparison of SegFormer model performance (mIoU scores) on real-world UAV datasets (UAVid, ICG, UDD, VDD, and Aeroscapes) after being trained with SynDrone, SkyScene, and D²S²-UI.
 
-<img src="images/12.png" alt="Description" width="730" height="220"> 
+<img src="images/13.png" alt="Description" width="1200" height="1400"> 
 
 ****
 ## Cite this work:
